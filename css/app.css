@@ -1,0 +1,201 @@
+header {
+    text-align: center;
+}
+
+p {
+    font-family: "Lato", sans-serif;
+}
+
+div#graphic-1, div.graphic-3 {
+    float: right;
+    padding-left: 2rem;
+}
+
+div.graphic-2 {
+    float: left;
+    padding-right: 2rem;
+}
+
+@media only screen and (max-width: 40em) { 
+    div#graphic-1, div.graphic-3 {
+        float: none;
+        padding-left: 0rem;
+    }
+
+    div.graphic-2 {
+        float: none;
+        padding-right: 0rem;
+    }
+}
+
+#prime-logo {
+	width: 200px;
+    max-width: 15vw;
+}
+
+.legend .title {
+    display: block;
+    margin-bottom: 0.5em;
+    line-height: 1.2em;
+    padding: 0 0.3em;
+}
+
+.legend .color-sample {
+    display: block;
+    float: left;
+    width: 1em;
+    height: 1em;
+    border: 2px solid; 
+    margin-right: 0.5em;
+}
+
+.flexslider .slides img {
+    width: auto;
+    display: block;
+    margin: auto;
+    height: 64vw;
+    max-height: 90vh;
+}
+
+.content {
+    margin: 30px 0 0 0;
+    background-color: rgba(255,255,255, 0.9);
+    padding: 20px 20px 20px 20px;
+    border-radius: 5px;
+}
+
+.part-title {
+    text-align: center;
+    font-size: 30px;
+}
+
+.credits {
+    right: 1rem;
+    bottom: 4rem;
+    position: absolute;
+    color: white;
+    font-size: 1.2rem;
+    font-family: "Lato", sans-serif;
+}
+
+@media only screen and (max-width: 40em) { 
+    .credits {
+        font-size: 1rem;
+    }
+}
+
+.bigimg {
+    z-index: -1;
+    background: transparent;
+    width: 100%;
+
+}
+.headerimg {
+    min-height: 100vh;
+    background: transparent;
+    width: 100%;
+    position: relative;
+}
+
+#onlinelogo {
+    position: absolute;
+    bottom: 6rem;
+    right: 1rem;
+    width: 75%;
+}
+
+footer{
+    color: rgba(255,255,255, 0.7);
+    padding: 8px 0 8px 0;
+    font-size: 0.7em;
+    clear: both;
+    border-top: 1px solid rgba(0,0,0, 0.1);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.top-right {
+    top: 0px;
+    position: absolute;
+    padding-right: 5px;
+    right: 0px;
+}
+
+.top {
+    position: absolute;
+    text-align: center;
+}
+
+.parallax-window {
+    min-height: 900px;
+    height: auto;
+    background: transparent;
+    width: 100%;
+}
+
+
+/* table of contents */
+.contents {
+    /* text properties */
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 100%;
+    font-weight: 400;
+    z-index: 3;
+
+    /* padding inside box (top right/left bottom)*/
+    /*padding: 0px 0px 0px;*/
+    padding-left: 20px;
+    padding-top: 5px;
+
+    /* margins around box */
+    margin-top:50px;
+    margin-left:0px;
+    
+    /* 100% opaque black bg */
+    background-color: rgba(10,10,10,0.65); 
+
+    /* fixed position - move w/ scroll */
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 205px;
+}
+
+.contents-btn {
+    z-index: 3;
+
+    cursor: pointer;
+
+    /* text properties */
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 120%;    
+    font-weight: 300;
+    color: rgba(220,220,220,1);
+
+    /* fixed position - move w/ scroll */
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    /* margins around box */
+    /*margin-top:15px;
+    margin-left:15px;*/
+
+    /* padding inside box (top right/left bottom)*/
+    padding: 5px;
+    /*padding-left: 20px;*/
+
+    /* dimensions */
+    width: 205px;
+    height: 50px;
+    padding: 12px 20px 5px;
+
+    /* 100% opaque black bg */
+    background-color: rgba(10,10,10,0.65); 
+}
+
+
