@@ -101,7 +101,7 @@ Chart.types.Doughnut.extend({
             this.chart.ctx.textAlign = "center";
             this.chart.ctx.textBaseline = 'middle';
             this.chart.ctx.font = Chart.helpers.fontString(30, "italic bold", "'Helvetica Neue', 'Helvetica', 'Arial', sans-serif");
-            this.chart.ctx.fillText("Social", this.chart.width / 2 , this.chart.height / 2.3);
+            this.chart.ctx.fillText("Special", this.chart.width / 2 , this.chart.height / 2.3);
             this.chart.ctx.fillText("Needs", this.chart.width / 2 , this.chart.height / 1.7);
         }
     });
